@@ -15,26 +15,27 @@ ROMs can be obtained [here](https://www.zophar.net/pdroms/chip8/chip-8-games-pac
 ## Controls
 
 <table>
-<tr><th>CHIP-8</th><th>QWERTY</th></tr>
-<tr><td>
+	<tr>
+		<th>Table 1 Heading 1 </th>
+		<th>Table 1 Heading 2</th>
+	</tr>
+	<tr>
+		<td>
 
-| | | | |
-|:-:|:-:|:-:|:-:|
-|1|2|3|C|
-|4|5|6|D|
-|7|8|9|E|
-|A|0|B|F|
+			|Table 1| Middle | Table 2|
+			|--|--|--|
+			|a| not b|and c |
 
-</td><td>
+		</td>
+		<td>
 
-| | | | |
-|:-:|:-:|:-:|:-:|
-|1|2|3|4|
-|Q|W|E|R|
-|A|S|D|F|
-|Z|X|C|V|
+			|b|1|2|3|
+			|--|--|--|--|
+			|a|s|d|f|
 
-</td></tr> </table>
+		</td>
+	</tr>
+</table>
 
 ## Resources
 
