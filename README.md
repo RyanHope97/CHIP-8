@@ -10,6 +10,8 @@ CHIP-8 interpreter written in Rust
 cargo run --release [ROM]
 ```
 
+ROMs can be obtained [here](https://www.zophar.net/pdroms/chip8/chip-8-games-pack.html)
+
 ## Controls
 
 <table>
