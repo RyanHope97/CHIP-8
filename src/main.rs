@@ -354,7 +354,7 @@ impl Chip8State {
             (0xF, _, 5, 5) => {
                 println!("Store the values of registers V0 to V{:X} inclusive in memory starting at address I", reg_x);
                 println!("I is set to I + {:X} + 1 after operation", reg_x);
-                for i in 0..reg_x + 1 {
+                for i in 0..=reg_x {
                     self.memory[self.i_register as usize + i] = self.registers[i];
                 }
                 self.i_register += reg_x as u16 + 1;
@@ -362,7 +362,7 @@ impl Chip8State {
             (0xF, _, 6, 5) => {
                 println!("Fill registers V0 to V{:X} inclusive with the values stored in memory starting at address I", reg_x);
                 println!("I is set to I + {:X} + 1 after operation", reg_x);
-                for i in 0..reg_x + 1 {
+                for i in 0..=reg_x {
                     self.registers[i] = self.memory[self.i_register as usize + i];
                 }
                 self.i_register += reg_x as u16 + 1;
